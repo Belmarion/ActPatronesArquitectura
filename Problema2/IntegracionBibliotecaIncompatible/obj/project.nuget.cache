@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "5iAeyUhsaY0g2QsqDoQo4GzkPA8ScvvVtqz60y3jvPCn7JX79OGKRfulb9Q2mIsmhMucZc0IWGNVcIIqbSaN2A==",
+  "success": true,
+  "projectFilePath": "C:\\Proyectos\\Aprender\\ActPatronesArquitectura\\Problema2\\IntegracionBibliotecaIncompatible\\IntegracionBibliotecaIncompatible.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\geojson.net\\1.2.19\\geojson.net.1.2.19.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\nettopologysuite\\2.0.0\\nettopologysuite.2.0.0.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\nettopologysuite.features\\2.0.0\\nettopologysuite.features.2.0.0.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\nettopologysuite.io.geojson\\4.0.0\\nettopologysuite.io.geojson.4.0.0.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\sharpkml.core\\6.0.0\\sharpkml.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\César E. Patarroyo C\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

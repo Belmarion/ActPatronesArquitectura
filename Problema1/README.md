@@ -21,6 +21,10 @@ que se agregan nuevos tipos de informes o formatos de salida en el futuro.
 Se eligió el patrón de comportamiento “Command”:
 
 Para la generación de informes personalizados, este patrón nos permite tener flexibilidad al ejecutar las diferentes acciones,
- como objetos diferentes e independientes, facilitando las ejecuciones, adicionalmente nos permite ejecutarla de manera fácil en diferentes momentos,
- permitiendo ser escalable ya sea para agregar informes o formatos de salida sin alterar el código existente.
+como objetos diferentes e independientes, facilitando las ejecuciones, adicionalmente nos permite ejecutarla de manera fácil en diferentes momentos,
+permitiendo ser escalable ya sea para agregar informes o formatos de salida sin alterar el código existente.
+
+# Referencias
+
+1. https://refactoring.guru/es/design-patterns/catalog
 
