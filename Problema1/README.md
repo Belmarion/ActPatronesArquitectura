@@ -17,7 +17,7 @@ informes y formatos de salida, al tiempo que garantiza que los pasos generales s
 consistentes para todos los tipos de informes. Esto facilita la extensión del sistema a medida
 que se agregan nuevos tipos de informes o formatos de salida en el futuro.
 
-#Justificación
+# Justificación
 Se eligió el patrón de comportamiento “Command”:
 
 Para la generación de informes personalizados, este patrón nos permite tener flexibilidad al ejecutar las diferentes acciones,
