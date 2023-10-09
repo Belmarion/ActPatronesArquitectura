@@ -1,0 +1,17 @@
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\ClonPersonajeVideoJuego.exe
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\ClonPersonajeVideoJuego.deps.json
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\ClonPersonajeVideoJuego.runtimeconfig.json
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\ClonPersonajeVideoJuego.dll
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\ClonPersonajeVideoJuego.pdb
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.AssemblyInfoInputs.cache
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.AssemblyInfo.cs
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.csproj.CoreCompileInputs.cache
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.dll
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\refint\ClonPersonajeVideoJuego.dll
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.pdb
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.genruntimeconfig.cache
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ref\ClonPersonajeVideoJuego.dll
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.csproj.AssemblyReference.cache
+C:\Proyectos\Aprender\ActPatronesArquitectura\Problema3\ClonPersonajeVideoJuego\obj\Debug\net7.0\ClonPersonajeVideoJuego.csproj.CopyComplete

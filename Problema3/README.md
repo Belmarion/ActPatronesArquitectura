@@ -1,50 +1,34 @@
-# Actividad 1: Patrones de Diseño
-Universidad de la Sabana: Diplomado Arquitectura de Software - Actividad 1: Patrones de Diseño
+# Problema 3
+Problema: Clonación de Personajes en un Videojuego de Aventuras
 
-# Integrantes
-Cesar Eduardo Patarroyo Cortes <br>
-Cristian Alejandro Gonzalez Beltran<br>
-Jorge Leonardo Garzon Castaneda<br>
-Guerra German Velez Guerra<br>
-Kehity Yiseth Galvis Triana<br>
+Imagina que estás desarrollando un videojuego de aventuras en el que los jugadores
+pueden controlar a un grupo de héroes con habilidades únicas. Necesitas implementar un
+sistema de clonación de personajes. Los jugadores deben poder clonar y personalizar
+héroes existentes para formar equipos estratégicos.
 
+Requerimientos del sistema:
 
-Estos ejercicios pueden ejecutarse desde Visual Studio 2022, Jetbrains Rider y Visual Studio Code
+1. Los jugadores deben poder clonar a los héroes existentes en el juego para crear nuevos personajes con habilidades idénticas.
+2. Cada héroe tiene un conjunto único de habilidades especiales que incluyen ataques, defensas y habilidades mágicas.
+3. Los héroes pueden pertenecer a diferentes clases, como guerreros, magos o arqueros, y cada clase tiene su propio conjunto de habilidades base.
+4. Los jugadores deben poder personalizar los nombres y aspectos visuales de los héroes clonados después de la clonación.
+5. Los héroes deben mantener un registro de su experiencia, nivel y puntos de habilidad, y esta información debe copiarse correctamente al clonar un héroe.
+6. El sistema debe ser eficiente y permitir la creación de múltiples clones de un mismo héroe sin duplicar innecesariamente los datos.
 
-Tener encuenta para ejecución de los proyectos:
+# Justificación
 
-# Visual Studio
-Verficar que la versión de visual studio 2022 tenga habilitado para ejecutar proyectos en .NET 7
+Se eligió el patrón de creacional “Prototype”:
 
-En el caso de que no pueda ejecutarse, puede realizar lo siguientes pasos:
-
-1. buscar el Visual Studio Installer
-3. Lugo darle en modificar (En caso de tener más de una version de Visual Studio intalada en el equipo, seleccionar la version que desea realizar dicha modificación)
-4. Luego nos vamos al apartado "componentes individuales"
-5. Verificamos que este seleccionada ".NET 7 Runtime" (En el caso que no este seleccionada, debemos seleccionarla)
-6. Luego damos en "Modificar"
-7. Esperamos que termine la instalación
-8. Luego de la culminación podremos abrir los proyectos y podremos ejecutarlas.
-
-# Jetbrains Rider 
-En caso de no poderlos ejecutar debemos instalar el SDK de Microsoft correspodiente a .NET 7
-
-podremos descargarlo de la sigueinte enlace: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
-
-Descargamos en el apartado "Build apps - SDK" el correspodiente a nuestro sistema operativo y luego ya podremos abrir los proyectos correspodientes.
-
-# Visual Studio Code
-En caso de no poderlos ejecutar debemos instalar el SDK de Microsoft correspodiente a .NET 7
-
-podremos descargarlo de la sigueinte enlace: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
-
-Descargamos en el apartado "Build apps - SDK" el correspodiente a nuestro sistema operativo y luego ya podremos abrir los proyectos correspodientes.
-
-Recordar que para Visual Studio Code, toca ejecutar los proyectos por linea de comandos, se debe abrir el terminal y ejecutar:
-
-Ejemplo: Se emplea el comando "dotnet run"
-
-C\Downloads\Archivos\PatronesDeDiseno2> dotnet run
+Nos centramos en abordar la problemática con el patrón principal (Prototype), 
+que nos permitió desarrollarlo de una manera más rápida y fue altamente efectiva para solucionar la clonación sin agregarle complejidad al código y haciéndolo más legible,
+por lo tanto más fácil de entender, cumpliendo con las características solicitadas, sin embargo, 
+si los requerimientos tuvieran una mayor complejidad lo que seria necesario agregar más de un patrón para solucionar la problemática
+como lo son los patrones de Comportamiento o patrones Estructurales para relacionar objetos de una manera más flexible. 
+Un ejemplo puede ser la interacción de objetos clonados con objetos del juego como las armas
 
 
+
+# Referencias
+
+1. https://refactoring.guru/es/design-patterns/catalog
 
