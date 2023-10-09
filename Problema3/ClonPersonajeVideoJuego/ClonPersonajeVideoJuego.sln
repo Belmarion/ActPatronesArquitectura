@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClonPersonajeVideoJuego", "ClonPersonajeVideoJuego.csproj", "{A66C0D9A-FC21-41FC-9E41-98B6BAA4A085}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A66C0D9A-FC21-41FC-9E41-98B6BAA4A085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66C0D9A-FC21-41FC-9E41-98B6BAA4A085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66C0D9A-FC21-41FC-9E41-98B6BAA4A085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66C0D9A-FC21-41FC-9E41-98B6BAA4A085}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67A55E71-87B2-4FAF-81CC-508655130D7F}
+	EndGlobalSection
+EndGlobal
