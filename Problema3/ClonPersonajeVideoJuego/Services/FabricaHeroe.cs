@@ -1,4 +1,5 @@
-﻿using ClonPersonajeVideoJuego.Models;
+﻿using ClonPersonajeVideoJuego.ClasesDeHeroes;
+using ClonPersonajeVideoJuego.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
