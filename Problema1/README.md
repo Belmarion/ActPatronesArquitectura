@@ -18,11 +18,9 @@ consistentes para todos los tipos de informes. Esto facilita la extensión del s
 que se agregan nuevos tipos de informes o formatos de salida en el futuro.
 
 # Justificación
-Se eligió el patrón de comportamiento “Command”:
+Se eligió el patrón de comportamiento “Templete”:
 
-Para la generación de informes personalizados, este patrón nos permite tener flexibilidad al ejecutar las diferentes acciones,
-como objetos diferentes e independientes, facilitando las ejecuciones, adicionalmente nos permite ejecutarla de manera fácil en diferentes momentos,
-permitiendo ser escalable ya sea para agregar informes o formatos de salida sin alterar el código existente.
+
 
 # Referencias
 
