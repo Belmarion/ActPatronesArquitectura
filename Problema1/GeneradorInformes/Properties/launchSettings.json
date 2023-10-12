@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GeneradorInformes": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
