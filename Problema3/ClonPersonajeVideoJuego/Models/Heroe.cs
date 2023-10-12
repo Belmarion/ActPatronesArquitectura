@@ -19,7 +19,7 @@ namespace ClonPersonajeVideoJuego.Models
         {
             return (Heroe)this.MemberwiseClone();
         }
-        public void CambiarNombre(string nombre, string aspectoVisual)
+        public void Personalizar(string nombre, string aspectoVisual)
         {
             this.Nombre = nombre;
             this.AspectoVisual = aspectoVisual;

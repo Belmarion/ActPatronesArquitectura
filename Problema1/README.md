@@ -2,7 +2,7 @@
 La creación de un sistema de generación de informes personalizados con diferentes
 formatos de salida
 
-Problema: Sistema de Generación de Informes Personalizados
+## Problema: Sistema de Generación de Informes Personalizados
 
 L@ llamaron para desarrollar un software empresarial que necesita generar informes a
 partir de una base de datos. Los informes pueden tener diferentes formatos de salida, como
@@ -18,9 +18,13 @@ consistentes para todos los tipos de informes. Esto facilita la extensión del s
 que se agregan nuevos tipos de informes o formatos de salida en el futuro.
 
 # Justificación
-Se eligió el patrón de comportamiento “Templete”:
+Se eligió el patrón de comportamiento “**Command**”:
 
 
+
+# Diagrama
+
+![Ejercicio1](assets/Caso1.drawio.png "Ejercicio1")
 
 # Referencias
 

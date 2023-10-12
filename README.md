@@ -9,11 +9,16 @@ Guerra German Velez Guerra<br>
 Kehity Yiseth Galvis Triana<br>
 
 
+# Ejercicios
+- [Ejercicio1](Problema1/README.md)
+- [Ejercicio2](Problema2/README.md)
+- [Ejercicio3](Problema3/README.md)
+
 Estos ejercicios pueden ejecutarse desde Visual Studio 2022, Jetbrains Rider y Visual Studio Code
 
-Tener encuenta para ejecución de los proyectos:
+# Tener encuenta para ejecución de los proyectos:
 
-# Visual Studio
+## Visual Studio
 Verficar que la versión de visual studio 2022 tenga habilitado para ejecutar proyectos en .NET 7
 
 En el caso de que no pueda ejecutarse, puede realizar lo siguientes pasos:
@@ -26,14 +31,14 @@ En el caso de que no pueda ejecutarse, puede realizar lo siguientes pasos:
 7. Esperamos que termine la instalación
 8. Luego de la culminación podremos abrir los proyectos y podremos ejecutarlas.
 
-# Jetbrains Rider 
+## Jetbrains Rider 
 En caso de no poderlos ejecutar debemos instalar el SDK de Microsoft correspodiente a .NET 7
 
 podremos descargarlo de la sigueinte enlace: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
 
 Descargamos en el apartado "Build apps - SDK" el correspodiente a nuestro sistema operativo y luego ya podremos abrir los proyectos correspodientes.
 
-# Visual Studio Code
+## Visual Studio Code
 En caso de no poderlos ejecutar debemos instalar el SDK de Microsoft correspodiente a .NET 7
 
 podremos descargarlo de la sigueinte enlace: https://dotnet.microsoft.com/en-us/download/dotnet/7.0
