@@ -14,7 +14,7 @@ namespace ClonPersonajeVideoJuego.ClasesDeHeroes
             Nombre = "Guerrero Destructor";
             AspectoVisual = "Aspecto Guerrero Destructor";
             Nivel = 1;
-            Experiencia = 0;
+            Experiencia = 5;
 
             Habilidades = new Dictionary<string, int>
             {
