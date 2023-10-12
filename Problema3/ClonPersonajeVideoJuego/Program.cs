@@ -1,9 +1,6 @@
 ﻿using ClonPersonajeVideoJuego.ClasesDeHeroes;
 using ClonPersonajeVideoJuego.Models;
-using ClonPersonajeVideoJuego.Services;
 using Newtonsoft.Json;
-
-HeroeFactory factory = new HeroeFactory();
 
 Arquero arquero = new Arquero();
 Guerrero guerrero = new Guerrero();
