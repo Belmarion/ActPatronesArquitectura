@@ -16,17 +16,17 @@ Console.WriteLine($"Mago Original:\n {JsonConvert.SerializeObject(mago)}\n");
 
 // Clonar un arquero y personalizarlo
 Heroe arqueroClon = arquero.Clone();
-arqueroClon.CambiarNombre("Arquero del Inframundo", "Arquero Infernal");
+arqueroClon.Personalizar("Arquero del Inframundo", "Arquero Infernal");
 Console.WriteLine($"Copia Arquero:\n {JsonConvert.SerializeObject(arqueroClon)}\n");
 
 // Clonar un Guerrero y personalizarlo
 Heroe guerreroClon = guerrero.Clone();
-guerreroClon.CambiarNombre("Guerrero de Luz", "Guerrero Solar");
+guerreroClon.Personalizar("Guerrero de Luz", "Guerrero Solar");
 Console.WriteLine($"Copia Guerrero:\n {JsonConvert.SerializeObject(guerreroClon)}\n");
 
 // Clonar un arquero y personalizarlo
 Heroe MagoClon = mago.Clone();
-MagoClon.CambiarNombre("Mago Lunar", "Mago Lunar");
+MagoClon.Personalizar("Mago Lunar", "Mago Lunar");
 Console.WriteLine($"Copia Mago:\n {JsonConvert.SerializeObject(MagoClon)}\n");
 
 Console.ReadLine();

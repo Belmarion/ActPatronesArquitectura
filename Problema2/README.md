@@ -1,5 +1,5 @@
 # Problema 2
-Problema: Integración de Biblioteca Incompatible
+## Problema: Integración de Biblioteca Incompatible
 
 La integración de una biblioteca de terceros con una interfaz incompatible en tu sistema
 existente.
@@ -15,13 +15,16 @@ uniforme y una capa de adaptación entre ellos.
 
 # Justificación
 
-Se eligió el patrón de estructural “Adapter”:
+Se eligió el patrón de estructural “**Adapter**”:
 
 Para abordar el tema de la biblioteca de terceros con una interfaz incompatible de un tercero,
 se emplea este patrón para resolver la interoperabilidad entre la librería incompatible y la lógica que se espera lograr,
 permitiendo que ambas funcionen teniendo una interfaz común, con sus adaptaciones,
 logrando facilitar la conversión de datos del GeoJson al XML interpreta en KML, evitando alterar la lógica existente.
 
+# Diagrama
+
+![Ejercicio2](assets/Caso2.drawio.png "Ejercicio2")
 
 # Referencias
 
