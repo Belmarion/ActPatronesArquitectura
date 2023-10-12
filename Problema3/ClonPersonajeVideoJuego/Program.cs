@@ -1,19 +1,32 @@
-﻿using ClonPersonajeVideoJuego.Models;
+﻿using ClonPersonajeVideoJuego.ClasesDeHeroes;
+using ClonPersonajeVideoJuego.Models;
 using ClonPersonajeVideoJuego.Services;
 using Newtonsoft.Json;
 
 HeroeFactory factory = new HeroeFactory();
 
-// Clonar un guerrero y personalizarlo
-Heroe miGuerrero = factory.ClonarHeroe("guerrero", "Mi Guerrero", "AspectoGuerrero");
-Console.WriteLine($"Copia Guerrero:\n {JsonConvert.SerializeObject(miGuerrero)}\n");
+Arquero arquero = new Arquero();
+Guerrero guerrero = new Guerrero();
+Mago mago = new Mago();
 
-// Clonar un mago y personalizarlo
-Heroe miMago = factory.ClonarHeroe("mago", "Mi Mago", "AspectoMago");
-Console.WriteLine($"Copia Mago:\n {JsonConvert.SerializeObject(miMago)}\n");
+Console.WriteLine($"Arquero Original:\n {JsonConvert.SerializeObject(arquero)}\n");
+Console.WriteLine($"guerrero Original:\n {JsonConvert.SerializeObject(guerrero)}\n");
+Console.WriteLine($"Mago Original:\n {JsonConvert.SerializeObject(mago)}\n");
+
 
 // Clonar un arquero y personalizarlo
-Heroe miArquero = factory.ClonarHeroe("arquero", "Mi Arquero", "AspectoArquero");
-Console.WriteLine($"Copia Arquero:\n {JsonConvert.SerializeObject(miArquero)}\n");
+Heroe arqueroClon = arquero.Clone();
+arqueroClon.CambiarNombre("Arquero del Inframundo", "Arquero Infernal");
+Console.WriteLine($"Copia Arquero:\n {JsonConvert.SerializeObject(arqueroClon)}\n");
+
+// Clonar un Guerrero y personalizarlo
+Heroe guerreroClon = guerrero.Clone();
+guerreroClon.CambiarNombre("Guerrero de Luz", "Guerrero Solar");
+Console.WriteLine($"Copia Guerrero:\n {JsonConvert.SerializeObject(guerreroClon)}\n");
+
+// Clonar un arquero y personalizarlo
+Heroe MagoClon = mago.Clone();
+MagoClon.CambiarNombre("Mago Lunar", "Mago Lunar");
+Console.WriteLine($"Copia Mago:\n {JsonConvert.SerializeObject(MagoClon)}\n");
 
 Console.ReadLine();

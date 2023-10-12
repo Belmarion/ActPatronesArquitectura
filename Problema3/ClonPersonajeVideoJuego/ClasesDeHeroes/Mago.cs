@@ -14,7 +14,7 @@ namespace ClonPersonajeVideoJuego.ClasesDeHeroes
             Nombre = "Mago Oscuro";
             AspectoVisual = "Aspecto Mago Oscuro";
             Nivel = 1;
-            Experiencia = 0;
+            Experiencia = 2;
 
             Habilidades = new Dictionary<string, int>
             {

@@ -14,7 +14,7 @@ namespace ClonPersonajeVideoJuego.ClasesDeHeroes
             Nombre = "Arquero Leviatan";
             AspectoVisual = "Aspecto Arquero Leviatan";
             Nivel = 1;
-            Experiencia = 0;
+            Experiencia = 10;
 
             Habilidades = new Dictionary<string, int>
             {
